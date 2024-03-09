@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+/* Nav Bar */
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.skill-set{
+    display: flex;
+}
+
+.skill-set p{
+    margin: 20px;
+}
+
+.skill-set p:hover{
+    color: blueviolet;
+}
+
+.nav-name p{
+    margin: 20px;
+}
+
+/* Icons */
+.icon{
+    width: 20px;
+}
+
+.photo{
+    width: 400px;
+    border-radius: 50%;
+}
+
+.front-end{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh ;
+}
+
+.front-main{
+   display: flex;
+   justify-content: space-around;
+}
